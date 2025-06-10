@@ -414,27 +414,6 @@ header{
     z-index: 1;
 }
 
-
-/*
-.emmy .section {
-    border-color: solid white;
-    background-color: crimson;
-    bottom: 30px;
-    margin-top:40px;
-    margin-left:40px;
-    margin-right: 20px;
-}
-
-section main {
-        display:flex;
-        flex-direction:column-reverse;
-        margin:auto;
-        margin-left:30px;
-        margin-bottom:22px;
-        margin-right:22px;
-}
-
-*/
 .service-card2 {
     padding: 30px 20px;
     border-radius: 15px;
