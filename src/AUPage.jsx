@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './AUPage.css';
+import './AuPage.css';
 import { useNavigate } from 'react-router-dom';
 
 const AUPage = () => {
