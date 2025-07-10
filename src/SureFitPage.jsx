@@ -42,7 +42,6 @@ const handleLogout = () => {
     navigate ('/');
   };
 
-
   const [menuActive, setMenuActive] = useState(false);
   const [currentSlide, setCurrentSlide] = useState(0);
 
