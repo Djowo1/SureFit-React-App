@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './SureFitPage.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { useNavigate } from 'react-router-dom';
 
 const slides = [
   {
@@ -35,6 +36,13 @@ const slides = [
 ];
 
 const SureFitPage = () => {
+const navigate = useNavigate();
+
+const handleLogout = () => {
+    navigate ('/');
+  };
+
+
   const [menuActive, setMenuActive] = useState(false);
   const [currentSlide, setCurrentSlide] = useState(0);
 
@@ -79,6 +87,7 @@ const SureFitPage = () => {
             <li><a href="#trainers" onClick={() => setMenuActive(false)}>Trainers</a></li>
             <li><a href="#blog" onClick={() => setMenuActive(false)}>Blog</a></li>
             <li><a href="#contact" onClick={() => setMenuActive(false)}>Contact</a></li>
+            <li><a href="" onClick={handleLogout}>Logout</a></li>
           </ul>
 
           <div className="menu-toggle" data-aos="fade-right" onClick={toggleMenu}>

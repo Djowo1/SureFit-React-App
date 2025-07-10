@@ -8,7 +8,8 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<AUPage />} />          
+        <Route path="/" element={<AUPage />} />  
+         <Route path="/surefit" element={<SureFitPage />} />        
       </Routes>
     </Router>
   );
